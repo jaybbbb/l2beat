@@ -17,7 +17,7 @@ export const optimism: Layer2 = {
   id: ProjectId('optimism'),
   display: {
     name: 'Optimism',
-    slug: 'optimism',
+    slug: 'optimisma',
     warning:
       'Fraud proof system is currently under development. Users need to trust block Proposer to submit correct L1 state roots.',
     description:
