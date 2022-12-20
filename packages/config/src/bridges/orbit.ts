@@ -29,7 +29,7 @@ export const orbit: Bridge = {
       ],
     },
     description:
-      'Orbit Bridge is part of the Orbit Chain project. It is a cross-chain bridge that allows users to transfer tokens between supported blockchains. Tokens are deposited on the source chain and "representation tokens" are minted on the destination chain. Deposited tokens are not precisely locked and can be used in DeFi protocols by Orbit Farm. Accrued interest is not passed directly to token depositors. Bridge contract implementation and farm contract source code are not verified on Etherscan!',
+      'Orbit Bridge is part of the Orbit Chain project. It is a cross-chain bridge that allows users to transfer tokens between supported blockchains. Tokens are deposited on the source chain and "representation tokens" are minted on the destination chain. Now, accured interest used to ORC token buyback protocol. ORC is governance token for Orbit Bridge and Orbit Chain. And the bridge governance group is considering ways to benefit users more directly. For a better experience. Protocol is constantly changing.',
   },
   config: {
     associatedTokens: ['ORC'],
@@ -167,7 +167,7 @@ export const orbit: Bridge = {
         address: '0x1Bf68A9d1EaEe7826b3593C20a0ca93293cb489a',
         name: 'EthVault',
         description:
-          'Bridge contract, Proxy, Escrow, Governance. Source code of implementation is not verified on Etherscan.',
+          'Bridge contract, Proxy, Escrow, Governance. Administration of farm contracts.',
         upgradeability: {
           type: 'CustomWithoutAdmin',
           implementation: '0x9f2E4581d47c2851EA1150AB8126b45C5939d8f5',
